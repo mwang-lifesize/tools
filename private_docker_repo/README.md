@@ -13,7 +13,7 @@ How to setup to use your docker to use this self-signed docker registry
 
 sudo mkdir -p /etc/docker/certs.d/docker-eng.lifesize.com/
 
-sudo wget  https://raw.githubusercontent.com/mwang-lifesize/tools/master/private_docker_repo/certs/docker-eng.crt -O /etc/docker/certs.d/docker-eng.lifesize.com/ca.rt
+sudo wget  https://raw.githubusercontent.com/mwang-lifesize/tools/master/private_docker_repo/certs/docker-eng.crt -O /etc/docker/certs.d/docker-eng.lifesize.com/ca.crt
 
 
 ### For mac or window user
